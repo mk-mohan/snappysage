@@ -1,4 +1,4 @@
-FROM sagemath/sagemath-base
+FROM snappysage/sagemath-base
 
 MAINTAINER Erik M. Bray <erik.bray@lri.fr>
 
