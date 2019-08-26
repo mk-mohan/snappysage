@@ -10,6 +10,7 @@ ARG SAGE_SRC_TARGET=/opt
 # race condition between this and the install_sage.sh script, but it is not
 # terribly important for the purpose of cache invalidation)
 ARG SAGE_BRANCH=master
+ARG SAGE_FAT_BINARY=no
 ARG SAGE_COMMIT=HEAD
 ARG N_CORES
 
