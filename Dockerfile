@@ -15,6 +15,8 @@ ARG N_CORES
 
 USER root
 COPY scripts/install_sage.sh /tmp/
+# execute auth on script
+RUN chmod +x /tmo/install_sage.sh
 # We do a few things as root in the sage install scripts, though the sage build
 # itself is done by sudo-ing as the sage user
 # make source checkout target, then run the install script
