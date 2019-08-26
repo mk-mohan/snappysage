@@ -1,4 +1,4 @@
-FROM snappysage/sagemath-base
+FROM upadrishta/snappysage-base
 
 MAINTAINER Erik M. Bray <erik.bray@lri.fr>
 
